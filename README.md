@@ -1,20 +1,4 @@
-# Blob
-
-A cross-browser `Blob` that falls back to `BlobBuilder` when appropriate.
-If neither is available, it exports `undefined`.
-
-## Installation
-
-``` bash
-$ npm install blob
-```
-
-## Example
-
-``` js
-var Blob = require('blob');
-var b = new Blob(['hi', 'constructing', 'a', 'blob']);
-```
+用在 hipa-mobile 中的兼容版本，因为 socketio 依赖这个库，这个库在react native中报错
 
 ## License
 
